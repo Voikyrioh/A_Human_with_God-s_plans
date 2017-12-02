@@ -7,28 +7,25 @@
   <sounds name="sound"/>
   <sprites name="sprites">
     <sprites name="Hooman">
-      <sprite>sprites\spr_player_right</sprite>
-      <sprite>sprites\spr_player_flying_right</sprite>
-      <sprite>sprites\spr_player_flying_left</sprite>
-      <sprite>sprites\spr_player_left</sprite>
+      <sprite>sprites\spr_player</sprite>
     </sprites>
     <sprites name="Plateform">
       <sprite>sprites\SPR_Platform_Dirt</sprite>
       <sprite>sprites\SPR_Platform_Grass</sprite>
       <sprite>sprites\spr_stair</sprite>
-      <sprite>sprites\spr_spikes</sprite>
     </sprites>
     <sprites name="Props">
       <sprite>sprites\spr_flower_red_new</sprite>
       <sprite>sprites\spr_flower_white</sprite>
       <sprite>sprites\spr_anvil</sprite>
       <sprite>sprites\spr_ladder</sprite>
+      <sprite>sprites\spr_god_presence_cloudy</sprite>
+      <sprite>sprites\spr_god_presence</sprite>
     </sprites>
     <sprites name="Animals">
       <sprite>sprites\spr_unicorn</sprite>
       <sprite>sprites\spr_horse</sprite>
     </sprites>
-    <sprite>sprites\spr_trigger</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
@@ -44,20 +41,13 @@
     <object>objects\OBJ_Platform_Dirt</object>
     <object>objects\obj_test</object>
     <object>objects\obj_start</object>
-    <object>objects\OBJ_Main_Manager</object>
     <object>objects\obj_player</object>
-    <object>objects\obj_spikes</object>
-    <objects name="Triggers">
-      <objects name="rm_tuto">
-        <object>objects\obj_trigger_tuto_1</object>
-        <object>objects\obj_trigger_tuto_2</object>
-        <object>objects\obj_trigger_tuto_3</object>
-        <object>objects\obj_trigger_tuto_4</object>
-      </objects>
-    </objects>
+    <object>objects\obj_MenuLight</object>
+    <object>objects\obj_menuTitle</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\RM_Menu</room>
+    <room>rooms\RM_Tuto</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
