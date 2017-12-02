@@ -1,33 +1,26 @@
 // DÉPLACEMENT
+
 var mv_spd = 2;
-gravity = 1;
 
 //Déplacement à droite
+
 if(keyboard_check(vk_right))
 {
-    running = true;
-    sprite_index = spr_player_right;
     phy_position_x += mv_spd;
-    if (!jumping)
-    {
-        image_speed = 0.3;
-    }
+    image_speed = 1;
 }
 
+
 //Déplacement à gauche
+
 if(keyboard_check(vk_left))
 {
-    running = true;
-    sprite_index = spr_player_left;
     phy_position_x -= mv_spd;
-    if (!jumping)
-    {
-        image_speed = 0.3;
-    }
 }
 
 
 //Saut
+
 if (!place_free(x,y+3))
 {
     if(keyboard_check(vk_up))
@@ -35,16 +28,6 @@ if (!place_free(x,y+3))
         jumping = true;
         gravity = 0;
         physics_apply_local_impulse(x, y, 0, -10);
-        //sauter a gauche
-        if (sprite_index == spr_player_left)
-        {
-            sprite_index = spr_player_flying_left;
-        }
-        //sauter a droite       
-        if (sprite_index == spr_player_right)
-        {
-            sprite_index = spr_player_flying_right;
-        }
     }
 }
 else
@@ -52,36 +35,41 @@ else
     jumping = false;
 }
 
-// Idle = image 0
-if(!keyboard_check(vk_left) && !keyboard_check(vk_right) && !jumping) 
+
+
+while(phy_speed_x != 0 && (keyboard_check(vk_up) || (keyboard_check(vk_down))))
 {
-    running = false;
-    image_speed = 0;
-    image_index = 0;
+    image_speed = 1;
+    running = true;
 }
-else // en l'air = image saut
-{    
-    if (jumping)
+
+if (!is_undefined(running))
+{
+    if (!running)
     {
+        image_index = 0;
         image_speed = 0;
-        image_index = 1;
     }
+}
+
+if (jumping)
+{
+    image_speed = 0;
+    image_index = 1;
 }
 
 gravity = 1;
 
-
-//pas sortir a gauche et a droite
-
-if (phy_position_x <= 5)
-{
-    phy_position_x = 5;
-}
-
-
-//Sortir en bas
-if (phy_position_y > room_height)
-{
-    dead = true;
-}
-
+/*
+if(keyboard_check(vk_up))
+    {
+        gravity = 0;
+        physics_apply_local_impulse(x, y, 0, -5);
+    }
+    
+     if(keyboard_check(vk_down))
+    {
+        gravity = 0;
+        physics_apply_local_impulse(x, y, 0, 20);
+    }
+gravity = 1;
