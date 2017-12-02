@@ -19,6 +19,8 @@
       <sprite>sprites\spr_flower_white</sprite>
       <sprite>sprites\spr_anvil</sprite>
       <sprite>sprites\spr_ladder</sprite>
+      <sprite>sprites\spr_god_presence_cloudy</sprite>
+      <sprite>sprites\spr_god_presence</sprite>
     </sprites>
     <sprites name="Animals">
       <sprite>sprites\spr_unicorn</sprite>
@@ -39,12 +41,13 @@
     <object>objects\OBJ_Platform_Dirt</object>
     <object>objects\obj_test</object>
     <object>objects\obj_start</object>
-    <object>objects\OBJ_Main_Manager</object>
     <object>objects\obj_player</object>
+    <object>objects\obj_MenuLight</object>
+    <object>objects\obj_menuTitle</object>
   </objects>
   <rooms name="rooms">
-    <room>rooms\RM_Tuto</room>
     <room>rooms\RM_Menu</room>
+    <room>rooms\RM_Tuto</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
