@@ -23,6 +23,8 @@
       <sprite>sprites\spr_flower_white</sprite>
       <sprite>sprites\spr_anvil</sprite>
       <sprite>sprites\spr_ladder</sprite>
+      <sprite>sprites\spr_god_presence</sprite>
+      <sprite>sprites\spr_god_presence_cloudy</sprite>
     </sprites>
     <sprites name="Animals">
       <sprite>sprites\spr_unicorn</sprite>
@@ -55,9 +57,12 @@
         <object>objects\obj_trigger_tuto_4</object>
       </objects>
     </objects>
+    <object>objects\obj_menuTitle</object>
+    <object>objects\obj_MenuLight</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\RM_Menu</room>
+    <room>rooms\RM_Tuto</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
