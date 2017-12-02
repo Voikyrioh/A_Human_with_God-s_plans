@@ -13,6 +13,7 @@
       <sprite>sprites\SPR_Platform_Dirt</sprite>
       <sprite>sprites\SPR_Platform_Grass</sprite>
       <sprite>sprites\spr_stair</sprite>
+      <sprite>sprites\spr_spikes</sprite>
     </sprites>
     <sprites name="Props">
       <sprite>sprites\spr_flower_red_new</sprite>
@@ -24,6 +25,7 @@
       <sprite>sprites\spr_unicorn</sprite>
       <sprite>sprites\spr_horse</sprite>
     </sprites>
+    <sprite>sprites\spr_trigger</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
@@ -41,6 +43,15 @@
     <object>objects\obj_start</object>
     <object>objects\OBJ_Main_Manager</object>
     <object>objects\obj_player</object>
+    <object>objects\obj_spikes</object>
+    <objects name="Triggers">
+      <objects name="rm_tuto">
+        <object>objects\obj_trigger_tuto_1</object>
+        <object>objects\obj_trigger_tuto_2</object>
+        <object>objects\obj_trigger_tuto_3</object>
+        <object>objects\obj_trigger_tuto_4</object>
+      </objects>
+    </objects>
   </objects>
   <rooms name="rooms">
     <room>rooms\RM_Tuto</room>
