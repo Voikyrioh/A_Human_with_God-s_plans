@@ -16,7 +16,6 @@
       <sprite>sprites\SPR_Platform_Dirt</sprite>
       <sprite>sprites\SPR_Platform_Grass</sprite>
       <sprite>sprites\spr_stair</sprite>
-      <sprite>sprites\spr_spikes</sprite>
     </sprites>
     <sprites name="Props">
       <sprite>sprites\spr_flower_red_new</sprite>
@@ -30,7 +29,6 @@
       <sprite>sprites\spr_unicorn</sprite>
       <sprite>sprites\spr_horse</sprite>
     </sprites>
-    <sprite>sprites\spr_trigger</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
@@ -48,6 +46,7 @@
     <object>objects\obj_start</object>
     <object>objects\OBJ_Main_Manager</object>
     <object>objects\obj_player</object>
+<<<<<<< HEAD:A Human with God's plans.gmx/A Human with God's plans.project.gmx
     <object>objects\obj_spikes</object>
     <objects name="Triggers">
       <objects name="rm_tuto">
@@ -59,6 +58,8 @@
     </objects>
     <object>objects\obj_menuTitle</object>
     <object>objects\obj_MenuLight</object>
+=======
+>>>>>>> parent of 99af0d0... Merge branch 'master' of https://github.com/Voiky/A_Human_with_God-s_plans:A Human with God's plans.gmx/A Human with God's plans Version Animation.project.gmx
   </objects>
   <rooms name="rooms">
     <room>rooms\RM_Menu</room>
