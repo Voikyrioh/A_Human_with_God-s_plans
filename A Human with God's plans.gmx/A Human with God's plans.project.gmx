@@ -62,8 +62,8 @@
     <object>objects\obj_stair</object>
   </objects>
   <rooms name="rooms">
-    <room>rooms\RM_Tuto</room>
     <room>rooms\RM_Menu</room>
+    <room>rooms\RM_Tuto</room>
     <room>rooms\RM_2</room>
     <room>rooms\RM_3</room>
     <room>rooms\RM_4</room>
