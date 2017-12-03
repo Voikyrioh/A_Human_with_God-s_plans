@@ -59,7 +59,7 @@
     </objects>
     <object>objects\obj_menuTitle</object>
     <object>objects\obj_MenuLight</object>
-    <object>objects\object14</object>
+    <object>objects\obj_stair</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\RM_Tuto</room>

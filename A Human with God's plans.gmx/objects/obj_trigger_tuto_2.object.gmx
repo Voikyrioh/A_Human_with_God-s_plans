@@ -65,6 +65,7 @@
           <argument>
             <kind>1</kind>
             <string>active_trigger = 1;
+alarm[0] = 10;
 </string>
           </argument>
         </arguments>
@@ -90,10 +91,8 @@
             <string>draw_self();
 if(active_trigger == 1)
 {
-    script_execute(SCRIPT_TextBox,"It's me again","Would you rather have a Cloak or a Hat ?","","","");
-    alarm[0] = 10;
+    script_execute(SCRIPT_TextBox,"It's me again","Would you rather have a Cloak or a Hat ?","","","");  
 }
-
 </string>
           </argument>
         </arguments>
