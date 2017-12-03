@@ -35,8 +35,8 @@
   <backgrounds name="background"/>
   <paths name="paths"/>
   <scripts name="scripts">
-    <script>scripts\SCRIPT_TextBox.gml</script>
     <script>scripts\script_deplacement.gml</script>
+    <script>scripts\SCRIPT_TextBox.gml</script>
   </scripts>
   <fonts name="fonts">
     <font>fonts\ft_god</font>
@@ -60,6 +60,7 @@
     <object>objects\obj_menuTitle</object>
     <object>objects\obj_MenuLight</object>
     <object>objects\obj_stair</object>
+    <object>objects\obj_startbutton</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\RM_Menu</room>
