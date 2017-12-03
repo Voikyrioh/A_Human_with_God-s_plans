@@ -13,8 +13,8 @@
       <sprite>sprites\spr_player_left</sprite>
     </sprites>
     <sprites name="Plateform">
-      <sprite>sprites\SPR_Platform_Dirt</sprite>
-      <sprite>sprites\SPR_Platform_Grass</sprite>
+      <sprite>sprites\spr_Platform_Dirt</sprite>
+      <sprite>sprites\spr_Platform_Grass</sprite>
       <sprite>sprites\spr_stair</sprite>
       <sprite>sprites\spr_spikes</sprite>
     </sprites>
@@ -42,11 +42,11 @@
     <font>fonts\ft_god</font>
   </fonts>
   <objects name="objects">
-    <object>objects\OBJ_Platform_Grass</object>
-    <object>objects\OBJ_Platform_Dirt</object>
+    <object>objects\obj_Platform_Grass</object>
+    <object>objects\obj_Platform_Dirt</object>
     <object>objects\obj_test</object>
     <object>objects\obj_start</object>
-    <object>objects\OBJ_Main_Manager</object>
+    <object>objects\obj_Main_Manager</object>
     <object>objects\obj_player</object>
     <object>objects\obj_spikes</object>
     <objects name="Triggers">
