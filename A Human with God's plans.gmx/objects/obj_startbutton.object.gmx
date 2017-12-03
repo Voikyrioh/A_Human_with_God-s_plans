@@ -58,7 +58,10 @@ txtbox_y2 = ((room_height/2)+64);
     color = c_dkgray;
     
     if(mouse_check_button(mb_left))
+    {
+        instance_destroy(obj_MenuLight);
         room_goto_next();
+    }
 }
     
 else
