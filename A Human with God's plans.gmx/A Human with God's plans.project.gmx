@@ -59,10 +59,19 @@
     </objects>
     <object>objects\obj_menuTitle</object>
     <object>objects\obj_MenuLight</object>
+    <object>objects\object14</object>
   </objects>
   <rooms name="rooms">
-    <room>rooms\RM_Menu</room>
     <room>rooms\RM_Tuto</room>
+    <room>rooms\RM_Menu</room>
+    <room>rooms\RM_2</room>
+    <room>rooms\RM_3</room>
+    <room>rooms\RM_4</room>
+    <room>rooms\RM_5</room>
+    <room>rooms\RM_6</room>
+    <room>rooms\RM_7</room>
+    <room>rooms\RM_8</room>
+    <room>rooms\RM_9</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
