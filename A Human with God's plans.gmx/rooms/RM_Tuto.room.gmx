@@ -60,8 +60,7 @@
     <instance objName="OBJ_Platform_Grass" x="25" y="145" name="inst_6900F6B7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="OBJ_Platform_Grass" x="75" y="145" name="inst_C7F375B7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="OBJ_Platform_Grass" x="25" y="145" name="inst_8728165B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="OBJ_Platform_Grass" x="525" y="145" name="inst_719FA3A7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="OBJ_Platform_Grass" x="575" y="145" name="inst_30811953" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="OBJ_Platform_Grass" x="575" y="145" name="inst_719FA3A7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="OBJ_Platform_Grass" x="625" y="145" name="inst_B1F67FB1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="OBJ_Platform_Grass" x="675" y="145" name="inst_5078745B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="OBJ_Platform_Grass" x="725" y="145" name="inst_C34AF831" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -74,51 +73,58 @@
     <instance objName="OBJ_Platform_Grass" x="90" y="120" name="inst_CA99675C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="OBJ_Platform_Grass" x="155" y="95" name="inst_0CC3A70F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="OBJ_Platform_Grass" x="240" y="95" name="inst_DC0DA94E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="OBJ_Platform_Grass" x="310" y="65" name="inst_45AD7E4E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="OBJ_Platform_Grass" x="325" y="90" name="inst_45AD7E4E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_player" x="10" y="120" name="inst_61C92F54" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_spikes" x="50" y="135" name="inst_63BFE7B8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_spikes" x="85" y="135" name="inst_63BFE7B8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_trigger_tuto_1" x="150" y="75" name="inst_1E1B6A1B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="OBJ_Platform_Dirt" x="570" y="135" name="inst_C2B86136" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="OBJ_Platform_Dirt" x="570" y="145" name="inst_F26B205E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="OBJ_Platform_Dirt" x="570" y="125" name="inst_3BED8D18" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="OBJ_Platform_Dirt" x="570" y="115" name="inst_C08A9B4A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="OBJ_Platform_Dirt" x="570" y="105" name="inst_D8336ED1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="OBJ_Platform_Dirt" x="580" y="105" name="inst_72F29043" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="OBJ_Platform_Dirt" x="590" y="105" name="inst_16212E5B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="OBJ_Platform_Dirt" x="580" y="115" name="inst_4EAC636E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="OBJ_Platform_Dirt" x="580" y="125" name="inst_6ACBD8E2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="OBJ_Platform_Dirt" x="590" y="115" name="inst_0E41B0DF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="OBJ_Platform_Dirt" x="590" y="125" name="inst_2F9C6D00" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="OBJ_Platform_Dirt" x="580" y="135" name="inst_D92409AB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="OBJ_Platform_Dirt" x="590" y="135" name="inst_14FF9E0A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="OBJ_Platform_Dirt" x="580" y="145" name="inst_9D1922F1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="OBJ_Platform_Dirt" x="590" y="145" name="inst_EC83CEF7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_stair" x="500" y="130" name="inst_9C728B5D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_stair" x="510" y="120" name="inst_784124C0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_stair" x="520" y="110" name="inst_ED3641BD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_stair" x="530" y="100" name="inst_4AC3A8D1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="OBJ_Platform_Dirt" x="515" y="135" name="inst_0C8E2DE7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="OBJ_Platform_Dirt" x="525" y="125" name="inst_128DBF85" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="OBJ_Platform_Dirt" x="535" y="115" name="inst_A49CB6A4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="OBJ_Platform_Dirt" x="535" y="125" name="inst_0C440550" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="OBJ_Platform_Dirt" x="535" y="135" name="inst_EC112326" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="OBJ_Platform_Dirt" x="525" y="135" name="inst_A177BB43" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="OBJ_Platform_Dirt" x="545" y="115" name="inst_915116E9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="OBJ_Platform_Dirt" x="545" y="105" name="inst_7E2231DF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="OBJ_Platform_Dirt" x="555" y="105" name="inst_22079132" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="OBJ_Platform_Dirt" x="560" y="105" name="inst_11DD8EFB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="OBJ_Platform_Dirt" x="555" y="115" name="inst_F2FA92F6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="OBJ_Platform_Dirt" x="560" y="115" name="inst_E31D6F0D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="OBJ_Platform_Dirt" x="555" y="120" name="inst_4C18B064" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="OBJ_Platform_Dirt" x="540" y="120" name="inst_A8FB2278" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="OBJ_Platform_Dirt" x="550" y="125" name="inst_C57E1C8E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="OBJ_Platform_Dirt" x="560" y="125" name="inst_EC7D39FA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="OBJ_Platform_Dirt" x="555" y="130" name="inst_CC4D9E99" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="OBJ_Platform_Dirt" x="555" y="135" name="inst_A2057FBE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="OBJ_Platform_Dirt" x="545" y="135" name="inst_178FFE06" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="OBJ_Platform_Dirt" x="540" y="125" name="inst_3CA17382" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="OBJ_Platform_Dirt" x="560" y="135" name="inst_74E28D37" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_trigger_tuto_2" x="470" y="100" name="inst_63478453" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_trigger_tuto_2" x="565" y="75" name="inst_63478453" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="OBJ_Platform_Grass" x="525" y="145" name="inst_95824EDC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_stair" x="495" y="135" name="inst_9E57C225" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_stair" x="500" y="130" name="inst_0D9BC9EA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_stair" x="505" y="125" name="inst_C1D43A02" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_stair" x="510" y="120" name="inst_480C58E3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_stair" x="515" y="115" name="inst_22796B5B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_stair" x="520" y="110" name="inst_17D592D9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_stair" x="525" y="105" name="inst_22C3D2AA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_stair" x="535" y="105" name="inst_71DDA9B0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_stair" x="545" y="105" name="inst_50793CE8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_stair" x="555" y="105" name="inst_F0C15D66" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_stair" x="565" y="105" name="inst_88C42790" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_stair" x="575" y="105" name="inst_8F50F7D9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="OBJ_Platform_Dirt" x="510" y="140" name="inst_60B7B31C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="OBJ_Platform_Dirt" x="515" y="135" name="inst_328E9B1C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="OBJ_Platform_Dirt" x="520" y="130" name="inst_5B22DA32" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="OBJ_Platform_Dirt" x="525" y="125" name="inst_39D11CE1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="OBJ_Platform_Dirt" x="530" y="120" name="inst_D09919D5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="OBJ_Platform_Dirt" x="535" y="115" name="inst_53F892FA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="OBJ_Platform_Dirt" x="545" y="115" name="inst_623B76FA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="OBJ_Platform_Dirt" x="555" y="115" name="inst_FC41C95E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="OBJ_Platform_Dirt" x="565" y="115" name="inst_8D2447DE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="OBJ_Platform_Dirt" x="575" y="115" name="inst_0F078055" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="OBJ_Platform_Dirt" x="580" y="115" name="inst_E4717EFB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="OBJ_Platform_Dirt" x="525" y="135" name="inst_5295542E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="OBJ_Platform_Dirt" x="535" y="125" name="inst_9CF8F630" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="OBJ_Platform_Dirt" x="535" y="135" name="inst_55C07F64" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="OBJ_Platform_Dirt" x="545" y="125" name="inst_38FD0D1D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="OBJ_Platform_Dirt" x="545" y="135" name="inst_8694AA29" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="OBJ_Platform_Dirt" x="555" y="125" name="inst_5DF29459" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="OBJ_Platform_Dirt" x="555" y="135" name="inst_F9C248B5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="OBJ_Platform_Dirt" x="565" y="125" name="inst_FDE80439" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="OBJ_Platform_Dirt" x="565" y="135" name="inst_9F77BE5D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="OBJ_Platform_Dirt" x="575" y="125" name="inst_AC51603E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="OBJ_Platform_Dirt" x="575" y="135" name="inst_1120ED1A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="OBJ_Platform_Dirt" x="580" y="125" name="inst_C2150D90" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="OBJ_Platform_Dirt" x="580" y="135" name="inst_08B7BC8A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="OBJ_Platform_Dirt" x="520" y="145" name="inst_D9DC21B2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="OBJ_Platform_Dirt" x="530" y="145" name="inst_D9DA626F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="OBJ_Platform_Dirt" x="540" y="145" name="inst_C8D2CE1B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="OBJ_Platform_Dirt" x="550" y="145" name="inst_248085CE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="OBJ_Platform_Dirt" x="580" y="145" name="inst_C7376EA4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="OBJ_Platform_Dirt" x="560" y="145" name="inst_2951D7A9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="OBJ_Platform_Dirt" x="570" y="145" name="inst_51E4F96E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="OBJ_Platform_Dirt" x="500" y="145" name="inst_DBF0D87D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_trigger_tuto_3" x="815" y="75" name="inst_60B23EE7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_trigger_tuto_4" x="1020" y="80" name="inst_9DFFF2CA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>-1</PhysicsWorld>
