@@ -1,17 +1,17 @@
 if(view_enabled)
 {
-    txtbox_x1 = view_xview[0] + ((view_wview[0]/2)-256);
-    txtbox_y1 = view_yview[0] + ((0+96)-48);
-    txtbox_x2 = view_xview[0] + ((view_wview[0]/2)+256);
-    txtbox_y2 = view_yview[0] + ((0+96)+48);
+    txtbox_x1 = view_xview[0] + (view_xview[0]+32);
+    txtbox_y1 = view_yview[0] + (8);
+    txtbox_x2 = view_xview[0] + (view_wview[0]-32);
+    txtbox_y2 = view_yview[0] + (64);
 }
 
 else
 {
-    txtbox_x1 = ((room_width/2)-256);
-    txtbox_y1 = ((0+96)-48);
-    txtbox_x2 = ((room_width/2)+256);
-    txtbox_y2 = ((0+96)+48);
+    txtbox_x1 = (32);
+    txtbox_y1 = (8);
+    txtbox_x2 = (room_width-32);
+    txtbox_y2 = (64);
 }
 
 draw_rectangle_colour(txtbox_x1-1,txtbox_y1-1,txtbox_x2+1,txtbox_y2+1,c_black,c_black,c_black,c_black,true);
