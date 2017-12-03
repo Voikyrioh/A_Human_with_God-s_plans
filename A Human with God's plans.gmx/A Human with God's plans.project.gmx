@@ -37,6 +37,13 @@
   <scripts name="scripts">
     <script>scripts\script_deplacement.gml</script>
     <script>scripts\SCRIPT_TextBox.gml</script>
+    <scripts name="scripts for buttons">
+      <script>scripts\script_endfgame.gml</script>
+      <script>scripts\script_nxtrm.gml</script>
+      <script>scripts\script_start_endfgame.gml</script>
+      <script>scripts\script_start_nxtrm.gml</script>
+    </scripts>
+    <script>scripts\script_choice.gml</script>
   </scripts>
   <fonts name="fonts">
     <font>fonts\ft_god</font>
@@ -46,7 +53,6 @@
     <object>objects\obj_Platform_Dirt</object>
     <object>objects\obj_test</object>
     <object>objects\obj_start</object>
-    <object>objects\obj_Main_Manager</object>
     <object>objects\obj_player</object>
     <object>objects\obj_spikes</object>
     <objects name="Triggers">
@@ -57,15 +63,22 @@
         <object>objects\obj_trigger_tuto_4</object>
       </objects>
     </objects>
-    <object>objects\obj_menuTitle</object>
-    <object>objects\obj_MenuLight</object>
     <object>objects\obj_stair</object>
-    <object>objects\obj_startbutton</object>
     <object>objects\obj_pnj1</object>
     <object>objects\obj_anvil</object>
+    <objects name="Menu and Start">
+      <object>objects\obj_MenuLight</object>
+      <object>objects\obj_menuTitle</object>
+      <object>objects\obj_startbutton</object>
+      <object>objects\obj_storyRoomMan</object>
+    </objects>
+    <objects name="Utilities">
+      <object>objects\obj_choiceButton</object>
+    </objects>
   </objects>
   <rooms name="rooms">
     <room>rooms\RM_Menu</room>
+    <room>rooms\RM_Start</room>
     <room>rooms\RM_Tuto</room>
     <room>rooms\RM_2</room>
     <room>rooms\RM_3</room>

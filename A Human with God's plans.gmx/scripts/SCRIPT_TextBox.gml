@@ -14,7 +14,7 @@ else
     txtbox_y2 = (64);
 }
 
-draw_rectangle_colour(txtbox_x1-1,txtbox_y1-1,txtbox_x2+1,txtbox_y2+1,c_black,c_black,c_black,c_black,true);
+draw_rectangle_colour(txtbox_x1,txtbox_y1,txtbox_x2,txtbox_y2,c_black,c_black,c_black,c_black,true);
 draw_rectangle_colour(txtbox_x1,txtbox_y1,txtbox_x2,txtbox_y2,c_dkgray,c_dkgray,c_dkgray,c_dkgray,false);
 
 // draw textlines
@@ -22,8 +22,18 @@ txtlx = (txtbox_x1-32)+(view_wview[0]/2);
 txtly = txtbox_y1+8;
 
 draw_set_font(ft_god);
-draw_text_transformed(txtlx,txtly+3,argument0,0.8,0.8,0);
-draw_text_transformed(txtlx,txtly+12,argument1,0.8,0.8,0);
-draw_text_transformed(txtlx,txtly+21,argument2,0.8,0.8,0);
-draw_text_transformed(txtlx,txtly+30,argument3,0.8,0.8,0);
-draw_text_transformed(txtlx,txtly+39,argument4,0.8,0.8,0);
+
+if !is_undefined(argument0)
+    draw_text_transformed(txtlx,txtly+3,argument0,0.8,0.8,0);
+
+if !is_undefined(argument1)
+    draw_text_transformed(txtlx,txtly+12,argument1,0.8,0.8,0);
+
+if !is_undefined(argument2)
+    draw_text_transformed(txtlx,txtly+21,argument2,0.8,0.8,0);
+
+if !is_undefined(argument3)
+    draw_text_transformed(txtlx,txtly+30,argument3,0.8,0.8,0);
+
+if !is_undefined(argument4)
+    draw_text_transformed(txtlx,txtly+39,argument4,0.8,0.8,0);

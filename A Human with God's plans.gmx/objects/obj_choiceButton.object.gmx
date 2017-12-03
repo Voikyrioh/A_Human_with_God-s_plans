@@ -3,7 +3,7 @@
   <spriteName>&lt;undefined&gt;</spriteName>
   <solid>0</solid>
   <visible>-1</visible>
-  <depth>-10</depth>
+  <depth>-1</depth>
   <persistent>0</persistent>
   <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
@@ -25,12 +25,51 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>color = c_gray;
+            <string>/// Init
 
-txtbox_x1 = ((room_width/2)-128);
-txtbox_y1 = ((room_height/2)-64);
-txtbox_x2 = ((room_width/2)+128);
-txtbox_y2 = ((room_height/2)+64);
+// Colors
+color1 = c_gray;
+color2 = c_gray;
+    
+if(view_enabled)
+{
+    // Positions of box1
+    txtbox1_x1 = view_xview[0] + 32;
+    txtbox1_y1 = view_yview[0] + 64;
+    txtbox1_x2 = view_xview[0] + (view_wview[0]/2);
+    txtbox1_y2 = view_yview[0] + 120;
+    
+    // Positions of box2
+    txtbox2_x1 = view_xview[0] + (view_wview[0]/2);
+    txtbox2_y1 = view_yview[0] + 64;
+    txtbox2_x2 = view_xview[0] + (view_wview[0]-32);
+    txtbox2_y2 = view_yview[0] + 120;
+}
+
+else
+{
+    // Positions of box1
+    txtbox1_x1 = 32;
+    txtbox1_y1 = 64;
+    txtbox1_x2 = (room_width/2);
+    txtbox1_y2 = 120;
+    
+    // Positions of box2
+    txtbox2_x1 = (room_width/2);
+    txtbox2_y1 = 64;
+    txtbox2_x2 = (room_width-32);
+    txtbox2_y2 = 120;
+}
+
+// Text positions
+txtpos1_x = txtbox1_x1 + ((txtbox1_x2 - txtbox1_x1) / 2);
+txtpos1_y = txtbox1_y1 + ((txtbox1_y2 - txtbox1_y1) / 2);
+txtpos2_x = txtbox2_x1 + ((txtbox2_x2 - txtbox2_x1) / 2);
+txtpos2_y = txtbox2_y1 + ((txtbox2_y2 - txtbox1_y1) / 2);
+
+// Text for buttons
+txt1 = "";
+txt2 = "";
 </string>
           </argument>
         </arguments>
@@ -53,19 +92,38 @@ txtbox_y2 = ((room_height/2)+64);
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if (point_in_rectangle(mouse_x,mouse_y,txtbox_x1,txtbox_y1,txtbox_x2,txtbox_y2,))
+            <string>/// Check mouse hover box and click
+
+if (point_in_rectangle(mouse_x,mouse_y,txtbox1_x1,txtbox1_y1,txtbox1_x2,txtbox1_y2,))
 {
-    color = c_dkgray;
+    color1 = c_dkgray;
     
-    if(mouse_check_button(mb_left))
+    if(mouse_check_button(mb_left) &amp;&amp; !is_undefined(scrpt1))
     {
-        instance_destroy(obj_MenuLight);
-        room_goto_next();
+        script_execute(scrpt1);
     }
-}
-    
+}   
+ 
 else
-    color = c_gray;
+{
+    color1 = c_gray;
+}
+
+
+if (point_in_rectangle(mouse_x,mouse_y,txtbox2_x1,txtbox2_y1,txtbox2_x2,txtbox2_y2,))
+{
+    color2 = c_dkgray;
+    
+    if(mouse_check_button(mb_left) &amp;&amp; !is_undefined(scrpt2))
+    {
+        script_execute(scrpt2);
+    }
+}   
+ 
+else
+{
+    color2 = c_gray;
+}
 </string>
           </argument>
         </arguments>
@@ -88,12 +146,29 @@ else
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>draw_rectangle_colour(txtbox_x1,txtbox_y1,txtbox_x2,txtbox_y2,c_black,c_black,c_black,c_black,true);
-draw_rectangle_colour(txtbox_x1,txtbox_y1,txtbox_x2,txtbox_y2,color,color,color,color,false);
+            <string>/// Draw
+
+// Box n1
+draw_rectangle_colour(txtbox1_x1,txtbox1_y1,txtbox1_x2,txtbox1_y2,c_black,c_black,c_black,c_black,true);
+draw_rectangle_colour(txtbox1_x1,txtbox1_y1,txtbox1_x2,txtbox1_y2,color1,color1,color1,color1,false);
+
+// Box n2
+draw_rectangle_colour(txtbox2_x1,txtbox2_y1,txtbox2_x2,txtbox2_y2,c_black,c_black,c_black,c_black,true);
+draw_rectangle_colour(txtbox2_x1,txtbox2_y1,txtbox2_x2,txtbox2_y2,color2,color2,color2,color2,false);
+
+// Draw Texts
+// Set font and align
 
 draw_set_font(ft_god);
 draw_set_valign(fa_middle);
-draw_text_transformed(room_width/2,room_height/2+8,"START",4,4,0);
+
+// Text 1
+
+draw_text_transformed(txtpos1_x,txtpos1_y,txt1,0.8,0.8,0);
+
+// Text 2
+
+draw_text_transformed(txtpos2_x,txtpos2_y,txt2,0.8,0.8,0);
 </string>
           </argument>
         </arguments>
