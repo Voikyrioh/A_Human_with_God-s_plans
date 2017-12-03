@@ -61,6 +61,8 @@
     <object>objects\obj_MenuLight</object>
     <object>objects\obj_stair</object>
     <object>objects\obj_startbutton</object>
+    <object>objects\obj_pnj1</object>
+    <object>objects\obj_anvil</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\RM_Menu</room>

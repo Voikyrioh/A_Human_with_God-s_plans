@@ -75,7 +75,7 @@
     <instance objName="obj_Platform_Grass" x="240" y="95" name="inst_DC0DA94E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Platform_Grass" x="325" y="90" name="inst_45AD7E4E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_player" x="10" y="120" name="inst_61C92F54" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_spikes" x="85" y="135" name="inst_63BFE7B8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_spikes" x="55" y="135" name="inst_63BFE7B8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_trigger_tuto_1" x="150" y="75" name="inst_1E1B6A1B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_trigger_tuto_2" x="565" y="75" name="inst_63478453" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Platform_Grass" x="525" y="145" name="inst_95824EDC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -125,6 +125,7 @@
     <instance objName="obj_Platform_Dirt" x="500" y="145" name="inst_DBF0D87D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_trigger_tuto_3" x="815" y="75" name="inst_60B23EE7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_trigger_tuto_4" x="1020" y="80" name="inst_9DFFF2CA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_pnj1" x="870" y="120" name="inst_D19D1583" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>-1</PhysicsWorld>

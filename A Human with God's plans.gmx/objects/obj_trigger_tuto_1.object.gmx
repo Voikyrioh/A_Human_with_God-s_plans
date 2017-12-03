@@ -65,7 +65,7 @@
           <argument>
             <kind>1</kind>
             <string>active_trigger = 1;
-alarm[0] = 10;
+alarm[0] = 50;
 </string>
           </argument>
         </arguments>
